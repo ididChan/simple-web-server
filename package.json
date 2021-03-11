@@ -1,0 +1,31 @@
+{
+  "name": "simple-web-server",
+  "version": "0.0.0",
+  "description": "Simple web server built via Express and EJS",
+  "keywords": [
+    "express",
+    "ejs",
+    "web server"
+  ],
+  "author": "Aidi Chen",
+  "license": "MIT",
+  "homepage": "https://github.com/ididChan/simple-web-server",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ididChan/simple-web-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ididChan/simple-web-server/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
